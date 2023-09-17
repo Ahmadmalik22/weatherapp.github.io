@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather_Web_App</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="search row">
+            <input type="text" placeholder="enter the city name" class="input">
+           
+            <img src="search.png" alt="" srcset="" class="saerch-icon">
+        </div>
+        <header class="row">
+            <i class="fa-sharp fa-solid fa-location-dot fa-beat-fade location"></i>
+            <div class="heading column">
+                <h1 class="city_name"> Faisalabad</h1>
+                <p class="date"></p>
+            </div>
+        </header>
+        <section class="main row">
+            <div class="clouds_img column">
+                <img id="clouds" src="mist.png" alt="clouds">
+                <h3 class="clear" >clouds</h3>
+            
+            </div>
+            <div class="discrip">
+                <h2 class="temp">33<sup>o</sup></h2>
+                <p class="feel">Feels like <span class="feels">33<sup>o</sup></span></p>
+            </div>
+        </section>
+        <section class="box">
+         <h2 style="margin-left: 10px; font-size: 1.8rem;color: hsl(210, 29%, 18%);">
+            <i style="margin-right: 10px;font-size: 15px;" class="fa-solid fa-cloud"></i>Air Quality:</h2>
+            <div class="box_1 row">
+                <h2 style="margin-left: 10px; font-size: 1.2rem;color: hsl(210, 29%, 18%);">
+                    <i style="margin-right: 10px;font-size: 15px;" class="fa-solid fa-droplet"></i>Humidity:<span class="humi">57</span>%</h2>
+                     <h2 style="margin-left: 10px; font-size: 1.2rem;color: hsl(210, 29%, 18%);">
+                    <i style="margin-right: 10px;font-size: 15px;" class="fa-solid fa-meteor"></i>Pressure:<span class="pre">20</span>atm</h2>
+            </div>
+            <div class="box_1 box2 row">
+                <h2 style="margin-left: 10px; font-size: 1.2rem;color: hsl(210, 29%, 18%);">
+                    <i style="margin-right: 10px;font-size: 15px;" class="fa-solid fa-wind"></i>Wind : <span class="wind">26</span>km/h</h2>
+                     <h2 style="margin-left: 10px; font-size: 1.2rem;color: hsl(210, 29%, 18%);">
+                    <i style="margin-right: 10px;font-size: 15px;" class="fa-solid fa-droplet"></i>Max-temp:<span class="max">20</span>deg</h2>
+            </div>
+        </section>
+        <footer>Practice Project</footer>
+    </div>
+
+
+
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
